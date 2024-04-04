@@ -60,7 +60,7 @@
     "yup": "^0.32.8"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "CI=true react-scripts start",
     "legacy": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "builddev": "react-scripts build",
